@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga dos Astronautas</title>
+</head>
+<body>
+    <h3>Cadastro na Liga dos Astronautas</h3>
+    <form>
+        <label for='name'>Nome</label>
+        <input type="text" id="name" name="name"> <br><br>
+        <label for='email'>Email</label>
+        <input type="email" id="email" name="email">
+        <span>-</span>
+        <label for='password'>Password</label>
+        <input type="password" id="password" name="password"> <br><br>
+        <label for='date'>Data Nascimento</label>
+        <input type="date" id="date" name="date">
+        <span>-</span>
+        <label for='file'>Foto</label>
+        <input type="file" id="file" name="file"><br><br>
+        <label for='birthCountry'>País de nascimento</label>
+        <input list="country" id="birthCountry" name="birthCountry">
+        <datalist id='country'>
+            <option value='Brasil'>
+            <option value='Estados Unidos'>
+        </datalist>
+        <span>-</span>
+        <label for='genero'>Gênero</label>
+        <input type="radio" id="generoMale" name="genero"><label for='generoMale'>M</label>
+        <input type="radio" id="generoFemale" name='genero'><label for='generoFemale'>F</label> <br><br>
+        <span>Suas principais habilidades:</span> <br>
+        <input type="checkbox" id="inteligencia" name="inteligencia">
+        <label for="inteligencia">| Inteligência |</label>
+        <input type="checkbox" id="preparoFisico" name="preparoFisico">
+        <label for="preparoFisico">| Preparo Físico |</label>
+        <input type="checkbox" id="educacao" name="educacao">
+        <label for="educacao">| Educação</label> <br><br>
+        <textarea style="height: 250px; width: 500px;" placeholder="Você quer ser um astronauta?"></textarea>
+        <br><br><br>
+        <button>Embarcar</button>
+    </form>
+</body>
+</html>
