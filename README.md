@@ -14,11 +14,24 @@
 
 ### Tecnologias Desenvolvidos
 ![HTML5 Badge](https://shields.io./badge/-HTML%205-orange)
-![HTML Badge](https://shields.io./badge/Status-Em%20desenvolvimento-yellow)
+![CSS5 Badge](https://shields.io./badge/-CSS3-blue)
 
 #### HTML:
+[Certificado](https://drive.google.com/file/d/1qVywIVbn-t-t-9u3dSk0XGrD_sHVnbup/view?usp=share_link)
 - Conceitos Gerais
 - Tags básicas
 - Lista
 - Tabelas
 - Formulários
+
+
+
+#### CSS3:
+[Certificado](https://drive.google.com/file/d/1osOar-ydWuSpgPn-4u-rVOvXl3iQ-fGe/view?usp=sharing)
+- Conceitos Gerais
+- Background e Borders
+- Seletores
+- Especificidade
+- Herança
+- Google Fonts
+- Box Model

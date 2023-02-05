@@ -1,0 +1,17 @@
+*{
+    background-color: #FFFAFA;
+    margin: 3% 5%;
+}
+
+p.date{
+    color: #008080;
+    font-family: Roboto, sans-serif;
+}
+
+h1{
+    font-family: Montserrat, sans-serif;
+}
+
+.post-content{
+    font-family: 'Open Sans', sans-serif;
+}
