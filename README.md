@@ -35,3 +35,10 @@
 - Herança
 - Google Fonts
 - Box Model
+
+#### CSS Moderno:
+[Certificado](https://)
+ - Reponsividade
+ - Media Query
+ - Flexbox, Flex container, Flex-items
+   
