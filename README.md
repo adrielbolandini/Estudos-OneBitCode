@@ -41,4 +41,5 @@
  - Reponsividade
  - Media Query
  - Flexbox, Flex container, Flex-items
+ - Grid
    
