@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.bodyContainer{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vh;
+    flex-direction: column;
+    background-color: darkgray;
+}
+
+.header, .footer{
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.container{
+    flex: 1 0 auto;
+    display: grid;
+    gap: 15px;
+    padding: 15px 0;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    'item1 item2 item3'
+    'item4 item4 item4'
+    'item5 item5 item6';
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    background-color: white;
+    min-width: 200px;
+}
+
+.item1{
+    grid-area: item1;
+    min-width: 250px;
+}
+
+.item2{
+    grid-area: item2;
+    min-width: 250px;
+}
+
+.item3{
+    grid-area: item3;
+    min-width: 250px;
+}
+
+.item4{
+    grid-area: item4;
+    min-width: 250px;
+}
+
+.item5{
+    grid-area: item5;
+    min-width: 250px;
+}
+
+.item6{
+    grid-area: item6;
+    min-width: 250px;
+}
+
+@media(max-width: 780px){
+    .container{
+        grid-template-areas: 
+        'item1 item1 item2'
+        'item3 item4 item5'
+        'item6 item6 item6'
+        ;
+        min-width: 100%;
+    }
+}
