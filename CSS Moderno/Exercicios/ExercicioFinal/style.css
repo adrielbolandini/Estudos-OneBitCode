@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+
+}
+
+p {
+    padding: 15px;
+}
+
+p:nth-child(2), p:nth-child(1) {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    width: auto;
+}
+
+.mainContent {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.pageTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.extraTitle {
+    color: white;
+}
+
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 15px;
+    height: auto;
+    flex-grow: 1;
+}
+
+.headerImg, .footerImg {
+    width: 400px;
+    margin: 15px 0;
+}
+
+.content {
+    flex: 1 0 auto;
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    'item1 item2 item3'
+    'item4 item5 item6'
+    'item7 item8 item9';
+}
+
+.itemImg {
+    margin: 15px;
+    border-radius: 5%;
+    width: auto;
+    min-width: 200px;
+    height: auto;
+}
+
+.extraSports {
+    background-color: gray;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border: 0;
+    margin: 0 15px;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    opacity: 0.7;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 200px;
+    width: 600px;
+    padding: 15px;
+    height: auto;
+}
+
+.extraItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    padding: 15px;
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.item6 {
+    grid-area: item6;
+}
+
+.item7 {
+    grid-area: item7;
+}
+
+.item8 {
+    grid-area: item8;
+}
+
+.item9 {
+    grid-area: item9;
+}
+
+@media(max-width: 2220px){
+    .content{
+        grid-template-areas: 
+        'item1 item2'
+        'item3 item4'
+        'item5 item6'
+        'item7 item8' 
+        'item9 item9';
+
+    }
+    .item {
+        min-width: 150px;
+    }
+    .itemImg {
+        min-width: 150px;
+    }
+}
+
+@media(max-width: 1620px){
+    .content{
+        grid-template-areas: 
+        'item1'
+        'item2'
+        'item3'
+        'item4'
+        'item5'
+        'item6'
+        'item7'
+        'item8'
+        'item9';
+
+    }
+    .item {
+        min-width: 150px;
+    }
+    .itemImg {
+        min-width: 150px;
+    }
+}
+
+@media(max-width: 1030px){
+    .mainContent  {
+        flex-direction: column;
+
+        align-items: center;
+    }
+    .headerImg, .footerImg {
+        width: 250px;
+    }
+}
+
+@media(max-width: 730px){
+    .header, .footer {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .item, .extraItem {
+        min-width: 100px;
+        width: 250px;
+    }
+    .button {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
