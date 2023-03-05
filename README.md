@@ -15,8 +15,6 @@
 - Tabelas
 - Formulários
 
-
-
 #### CSS3:
 [Certificado](https://drive.google.com/file/d/1osOar-ydWuSpgPn-4u-rVOvXl3iQ-fGe/view?usp=sharing)
 - Conceitos Gerais
@@ -37,3 +35,6 @@
 #### Javascript:
 [Certificado](https://)
  - O que é, tipos de dados, variáveis operadores e expressões.  
+ - Comparação de dados, operadores lógicos, estruturas condicionais e de repetição (if, else, while, Do while, switch, for)
+ - Estrutura de dados (Array e Objetos)
+ - Funções
