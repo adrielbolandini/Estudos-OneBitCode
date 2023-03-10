@@ -37,4 +37,5 @@
  - O que é, tipos de dados, variáveis operadores e expressões.  
  - Comparação de dados, operadores lógicos, estruturas condicionais e de repetição (if, else, while, Do while, switch, for)
  - Estrutura de dados (Array e Objetos)
- - Funções
+ - Funções, Métodos e High-Order Functions
+ - Objetos Globais
