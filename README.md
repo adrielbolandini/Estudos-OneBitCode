@@ -32,10 +32,15 @@
  - Flexbox, Flex container, Flex-items
  - Grid
 
-#### Javascript:
-[Certificado](https://)
+#### Javascript I:
+[Certificado](https://drive.google.com/file/d/16-4Fo61B-7shKmUPkw7sqYJVMJ8op2sn/view?usp=sharing)
  - O que é, tipos de dados, variáveis operadores e expressões.  
  - Comparação de dados, operadores lógicos, estruturas condicionais e de repetição (if, else, while, Do while, switch, for)
  - Estrutura de dados (Array e Objetos)
  - Funções, Métodos e High-Order Functions
  - Objetos Globais
+
+ #### Javascript II:
+[Certificado](https://)
+ - Eventos HTML 
+ - DOM (Criando, obtendo e manipulando)
