@@ -41,6 +41,7 @@
  - Objetos Globais
 
  #### Javascript II:
-[Certificado](https://)
+[Certificado](https://drive.google.com/file/d/1r1nKPXeE7e1hYfdhpDJHK2jDFop3zeu_/view?usp=share_link)
  - Eventos HTML 
  - DOM (Criando, obtendo e manipulando)
+ - Armazenamento no navegador
